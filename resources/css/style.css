@@ -1,0 +1,230 @@
+* {
+    padding : 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 100vh;
+        justify-content: space-around;
+    background-image: url('/resources/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1{
+    color: white;
+
+}
+
+.slogan {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align:center;
+    font-size: 80px;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 30px;
+    flex-shrink: 3;
+}
+
+@media screen and (max-width:1500px) {
+    .slogan{
+        font-size: 30px;
+    }
+}
+.navandlogo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+   
+    margin: auto;
+    position: fixed;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 5;
+    
+}
+
+.logo-container {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    padding:20px;
+    margin: 20px; 
+    align-items: flex-start;
+
+}
+
+.logo-container h1 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 50px;
+}
+
+nav ul {
+    
+    height: 15%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 5;
+    border:2px solid black;
+ 
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+
+nav ul li {
+    width: 200px;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+   
+}
+
+/* section aboutus */
+#aboutus {
+    height: 80vh;
+    background-color: white;
+    padding: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#aboutus h2{
+    text-align: center;
+    font-size: 100px;
+    
+}
+
+#aboutus p {
+    text-align: center;
+    font-size: 40px;
+   
+}
+
+/* section mission statement */
+#mission {
+    height: 80vh;
+    background-color: black;
+    padding: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mission h2 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+#mission p {
+    text-align: center;
+    color:white;
+    font-size:40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* section employee */
+#employee{
+    height: 80vh;
+    background-color: white;
+    padding: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#employee h2 {
+    text-align: center;
+    font-size: 100px;
+}
+
+#employee p {
+    text-align: center;
+    font-size: 30px;
+}
+#employee_list {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    flex-shrink: 2;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 10px 10px 5px gray;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex-basis: 120px;
+    
+}
+
+.card img{
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    flex-shrink: 2;
+
+
+}
+
+#contact {
+    height: 20vh;
+    background-color: black;
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#contact h2 {
+    font-size: 30px;
+}
+
+address {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contact a {
+    color: white;
+}
